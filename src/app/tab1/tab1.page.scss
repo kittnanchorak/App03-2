@@ -1,0 +1,23 @@
+:root {
+    --ion-color-new: #71a5f9;
+    --ion-color-new-rgb: 113,165,249;
+    --ion-color-new-contrast: #000000;
+    --ion-color-new-contrast-rgb: 0,0,0;
+    --ion-color-new-shade: #6391db;
+    --ion-color-new-tint: #0040a7;
+}
+
+.ion-color-new {
+    --ion-color-base: var(--ion-color-new);
+    --ion-color-base-rgb: var(--ion-color-new-rgb);
+    --ion-color-contrast: var(--ion-color-new-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-new-contrast-rgb);
+    --ion-color-shade: var(--ion-color-new-shade);
+    --ion-color-tint: var(--ion-color-new-tint);
+}
+ion-badge {
+    --background: purple (64, 6, 159);
+    --color: rgb(189, 88, 88);
+    --padding-end: 20px;
+    --padding-start: 20px;
+  }
